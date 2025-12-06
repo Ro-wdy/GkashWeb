@@ -71,15 +71,15 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--bg-primary);
+    background-color: #ffffff !important; /* Force white background */
     padding: 1rem 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 20px var(--shadow-color);
-    border-bottom: 1px solid var(--border-color);
-    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
 }
 
 .navbar .container {

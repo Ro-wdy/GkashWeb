@@ -87,17 +87,7 @@ document.querySelectorAll('.feature-card, .problem-card, .impact-card, .step').f
     observer.observe(el);
 });
 
-// Navbar Background Change on Scroll
-window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 100) {
-        navbar.style.background = 'rgba(26, 26, 26, 0.95)';
-        navbar.style.backdropFilter = 'blur(10px)';
-    } else {
-        navbar.style.background = '';
-        navbar.style.backdropFilter = '';
-    }
-});
+// Navbar background is now handled by CSS for consistent appearance
 
 // Counter Animation for Stats
 const stats = document.querySelectorAll('.stat-item h3');
